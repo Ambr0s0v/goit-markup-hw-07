@@ -7,9 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css
-    ">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Portfolio</title>
   </head>
 
@@ -224,9 +223,10 @@
     <!-- footer -->
     <footer class="footer">
       <div class="container">
-        <a href="#" class="footer__logo-link logo-link"><span class="header__logo-color logo-color">Web</span>Studio</a>
+        
         
         <div class="footer__info">
+          <a href="#" class="footer__logo-link logo-link"><span class="header__logo-color logo-color">Web</span>Studio</a>
           <address>
             <ul class="footer__lists">
               <li class="footer__item">
@@ -241,59 +241,52 @@
               <li class="footer__item"><a href="tel:+380961111111" class="footer__link">+38 096 111 11 11</a></li>
             </ul>
           </address>
-
-          <div class="footer__social-info">
-            <h2 class="footer__social-title">приєднуйтесь</h2>
-            <ul class="footer__social-lists">
-              <li>
-                <a href="#" class="button" >
-                  <svg class="button-icon" width="20" height="20" >
-                    <use href="./images/team-sprite.svg#icon-instagram"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer__social-item">
-                <a href="#" class="button">
-                  <svg class="button-icon" width="20" height="20">
-                    <use href="./images/team-sprite.svg#icon-twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer__social-item">
-                <a href="#" class="button">
-                  <svg class="button-icon" width="20" height="20">
-                    <use href="./images/team-sprite.svg#icon-facebook"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer__social-item">
-                <a href="#" class="button">
-                  <svg class="button-icon" width="20" height="20">
-                    <use href="./images/team-sprite.svg#icon-linkedin"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="footer__form">
-            <div class="footer__form-filed">
-              <label for="footer-mail" class="footer-mail">
-                Підпишіться на розсилку
-              </label>
-              <input type="mail" class="footer__input" placeholder="E-mail">
-            </div>
-            <button type="submit" class="footer__form-submit">Підписатися</button>
-          </div>
-          
-
+        </div>
+        <div class="footer__social-info">
+          <h2 class="footer__social-title">приєднуйтесь</h2>
+          <ul class="footer__social-lists">
+            <li>
+              <a href="#" class="button" >
+                <svg class="button-icon" width="20" height="20" >
+                  <use href="./images/team-sprite.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="button">
+                <svg class="button-icon" width="20" height="20">
+                  <use href="./images/team-sprite.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="button">
+                <svg class="button-icon" width="20" height="20">
+                  <use href="./images/team-sprite.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer__social-item">
+              <a href="#" class="button">
+                <svg class="button-icon" width="20" height="20">
+                  <use href="./images/team-sprite.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
         </div>
 
-        
+        <div class="footer__form">
+          <div class="footer__form-filed">
+            <label for="footer-mail" class="footer-mail">
+              Підпишіться на розсилку
+              <input type="mail" class="footer__input" id="footer-mail" placeholder="E-mail">
+            </label>
+          </div>
+          <button type="submit" class="footer__form-submit">Підписатися</button>
+        </div>
       </div>
       
     </footer>
-
-   
   </body>
 </html>
