@@ -22,13 +22,13 @@
   padding: 20px 24px;
 }
 
-.portfolio__gallery {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.portfolio__gallery-link {
+.portfolio__link {
   display: block;
   &:hover,&:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -60,8 +60,8 @@
   transition: transform var(--time) var(--type-transition);
 }
 
-.portfolio__gallery-link:hover .portfolio__overlay,
-.portfolio__gallery-link:focus .portfolio__overlay {
+.portfolio__link:hover .portfolio__overlay,
+.portfolio__link:focus .portfolio__overlay {
   transform: translateY(0);
   transition: transform $time $type-transition;
   -webkit-transform: translateY(0);

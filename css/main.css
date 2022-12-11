@@ -282,7 +282,7 @@ img {
   padding-bottom: 94px;
 }
 
-.doing__lists {
+.doing__list {
   display: flex;
   gap: 30px;
 }
@@ -417,16 +417,16 @@ img {
   align-items: center;
   fill: #afb1b8;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: background-color 250ms type-transition;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  -webkit-transition: background-color 250ms type-transition;
-  -moz-transition: background-color 250ms type-transition;
-  -ms-transition: background-color 250ms type-transition;
-  -o-transition: background-color 250ms type-transition;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -moz-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -ms-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  -o-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__social-links .button-icon {
@@ -1087,16 +1087,16 @@ textarea {
   padding: 20px 24px;
 }
 
-.portfolio__gallery {
+.portfolio__list {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
 }
 
-.portfolio__gallery-link {
+.portfolio__link {
   display: block;
 }
-.portfolio__gallery-link:hover, .portfolio__gallery-link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
@@ -1123,8 +1123,8 @@ textarea {
   transition: transform var(--time) var(--type-transition);
 }
 
-.portfolio__gallery-link:hover .portfolio__overlay,
-.portfolio__gallery-link:focus .portfolio__overlay {
+.portfolio__link:hover .portfolio__overlay,
+.portfolio__link:focus .portfolio__overlay {
   transform: translateY(0);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transform: translateY(0);

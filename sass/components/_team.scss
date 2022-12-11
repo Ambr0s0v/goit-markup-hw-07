@@ -71,17 +71,17 @@
     align-items: center;
     fill: #afb1b8;
     transition: color $time $type-transition;
-    transition: background-color $time type-transition;
+    transition: background-color $time $type-transition;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    -webkit-transition: background-color $time type-transition;
-    -moz-transition: background-color $time type-transition;
-    -ms-transition: background-color $time type-transition;
-    -o-transition: background-color $time type-transition;
-  }
+    -webkit-transition: background-color $time $type-transition;
+    -moz-transition: background-color $time $type-transition;
+    -ms-transition: background-color $time $type-transition;
+    -o-transition: background-color $time $type-transition;
+}
   
   .team__social-links .button-icon {
     width: 20px;
